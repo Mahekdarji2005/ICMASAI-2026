@@ -1,7 +1,5 @@
 import React from "react";
 import { Check, Minus } from "lucide-react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export default function SponsorshipPage() {
   const sponsorshipData = [
@@ -29,7 +27,7 @@ export default function SponsorshipPage() {
             AISCT 2026 (International Conference on Artificial Intelligence and Sustainable Computing Technologies)
           </h2>
           <p className="text-slate-300 leading-relaxed mb-8">
-            Faculty of Engineering & Technology, Parul University would like to invite your esteemed organization/Industries to become a sponsor/knowledge partner for AISCT 2026 to be held in 2026 at Parul University, Vadodara.
+            Faculty of Information & Technology & Computer Science, Parul University would like to invite your esteemed organization/Industries to become a sponsor/knowledge partner for AISCT to be held in 2026 to 2027 at Parul University, Vadodara.
           </p>
 
           <h3 className="text-lg md:text-xl font-bold text-yellow-400 mb-3">Why Sponsor with the AISCT 2026?</h3>
@@ -56,18 +54,18 @@ export default function SponsorshipPage() {
             <table className="w-full text-sm text-left">
               <thead className="text-xs uppercase bg-slate-800 text-yellow-400">
                 <tr>
-                  <th scope="col" className="px-6 py-4 rounded-tl-xl">Category<br/><span className="text-white normal-case">Amount</span></th>
-                  <th scope="col" className="px-6 py-4 text-center">Diamond Sponsorship<br/><span className="text-blue-400 normal-case font-medium">3 Lac or Above</span></th>
-                  <th scope="col" className="px-6 py-4 text-center">Gold Sponsorship<br/><span className="text-blue-400 normal-case font-medium">Rs. 2 Lac</span></th>
-                  <th scope="col" className="px-6 py-4 text-center">Silver Sponsorship<br/><span className="text-blue-400 normal-case font-medium">Rs. 1 Lac</span></th>
-                  <th scope="col" className="px-6 py-4 text-center rounded-tr-xl">In-Kind Sponsorship<br/><span className="text-blue-400 normal-case font-medium">Rs. 50K</span></th>
+                  <th scope="col" className="px-6 py-4 rounded-tl-xl">Category<br /><span className="text-white normal-case">Amount</span></th>
+                  <th scope="col" className="px-6 py-4 text-center">Diamond Sponsorship<br /><span className="text-blue-400 normal-case font-medium">3 Lac or Above</span></th>
+                  <th scope="col" className="px-6 py-4 text-center">Gold Sponsorship<br /><span className="text-blue-400 normal-case font-medium">Rs. 2 Lac</span></th>
+                  <th scope="col" className="px-6 py-4 text-center">Silver Sponsorship<br /><span className="text-blue-400 normal-case font-medium">Rs. 1 Lac</span></th>
+                  <th scope="col" className="px-6 py-4 text-center rounded-tr-xl">In-Kind Sponsorship<br /><span className="text-blue-400 normal-case font-medium">Rs. 50K</span></th>
                 </tr>
               </thead>
               <tbody>
                 {sponsorshipData.map((row, index) => (
                   <tr key={index} className="border-b border-slate-700/50 bg-slate-800/20 hover:bg-slate-700/30 transition-colors">
                     <td className="px-6 py-4 font-medium text-slate-200">{row.feature}</td>
-                    
+
                     <td className="px-6 py-4 text-center">
                       {typeof row.diamond === 'boolean' ? (row.diamond ? <Check className="w-5 h-5 mx-auto text-green-400" /> : <Minus className="w-5 h-5 mx-auto text-slate-600" />) : <span className="text-slate-300 font-semibold">{row.diamond}</span>}
                     </td>
@@ -121,18 +119,18 @@ export default function SponsorshipPage() {
             {/* Contact Persons */}
             <div className="bg-slate-800/40 rounded-xl p-6 border border-slate-700">
               <h3 className="text-xl font-bold text-yellow-400 mb-6 uppercase tracking-wider text-center">Contact Persons</h3>
-              
+
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-bold text-white text-lg">Dr. Heli Shah</h4>
-                  <p className="text-slate-400 text-sm">Sponsorship Team, AISCT - 2026</p>
-                  <p className="text-slate-300 mt-1">Contact No: <a href="tel:+919904444883" className="text-blue-400 hover:text-blue-300">+91-99044 44883</a></p>
+                  <h4 className="font-bold text-white text-lg">Dr. Ramachandran P</h4>
+                  <p className="text-slate-400 text-sm">Sponsorship Team, AISCT - 2026 to 2027 to be held in Feb 06 2027 at Parul University</p>
+                  <p className="text-slate-300 mt-1">Contact No: <a href="tel:+919384345662" className="text-blue-400 hover:text-blue-300">+919384345662</a></p>
                 </div>
-                
+
                 <div>
-                  <h4 className="font-bold text-white text-lg">Dr. Prathmesh Potdar</h4>
-                  <p className="text-slate-400 text-sm">Sponsorship Team, AISCT - 2026</p>
-                  <p className="text-slate-300 mt-1">Contact No: <a href="tel:+918976629233" className="text-blue-400 hover:text-blue-300">+91-89766 29233</a></p>
+                  <h4 className="font-bold text-white text-lg">Dr. Saswati Chatterjee</h4>
+                  <p className="text-slate-400 text-sm">Sponsorship Team, AISCT - 2026 AISCT - 2026 to 2027 to be held in Feb 06 2027 at Parul University</p>
+                  <p className="text-slate-300 mt-1">Contact No: <a href="tel:+919874410748" className="text-blue-400 hover:text-blue-300">+919874410748</a></p>
                 </div>
 
                 <div className="pt-4 border-t border-slate-700">

@@ -1,4 +1,4 @@
-import Venue from "@/pages/Venue";
+import Venue from "@/views/Venue";
 
 export default function VenuePage() {
   return <Venue />;

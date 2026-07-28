@@ -1,4 +1,4 @@
-import CommitteeResponsibilities from "@/pages/CommitteeResponsibilities";
+import CommitteeResponsibilities from "@/views/CommitteeResponsibilities";
 
 export default function CommitteeResponsibilitiesPage() {
   return <CommitteeResponsibilities />;

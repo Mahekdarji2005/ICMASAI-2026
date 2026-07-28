@@ -38,6 +38,7 @@ export default function PreConferenceWorkshop() {
                   alt={workshop.alt}
                   fill
                   className="object-contain"
+                  unoptimized={true}
                 />
               </div>
             </div>

@@ -1,4 +1,4 @@
-import PublishingEthics from "@/pages/PublishingEthics";
+import PublishingEthics from "@/views/PublishingEthics";
 
 export default function PublishingEthicsPage() {
   return <PublishingEthics />;

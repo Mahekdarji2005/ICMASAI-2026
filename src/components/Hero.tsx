@@ -74,29 +74,21 @@ const Hero = () => {
                   </p>
                   <div className="h-[1px] w-16 bg-gradient-to-l from-transparent to-[#FFD700]/70"></div>
                 </div>
-                <div className="flex items-center gap-5 md:gap-7">
+                <div className="flex items-center justify-center gap-6 md:gap-8">
                   <Image
                     src="/assets/partners/universitas-teknokra-indonesia-logo.png"
                     alt="Universitas Teknokrat Indonesia"
-                    width={200}
-                    height={120}
-                    className="object-contain drop-shadow-lg"
-                  />
-                  <Image
-                    src="/assets/aisct-logo-new.png"
-                    alt="AISCT Logo"
-                    width={200}
+                    width={150}
                     height={150}
-                    className="object-contain drop-shadow-lg"
+                    className="w-24 h-24 md:w-32 md:h-32 object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
                   />
                   <Image
                     src="/assets/partners/inflolink.png"
                     alt="Infolink University College"
-                    width={200}
-                    height={190}
-                    className="object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
+                    width={150}
+                    height={150}
+                    className="w-24 h-24 md:w-32 md:h-32 object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
                   />
-
                 </div>
               </div>
             </div>

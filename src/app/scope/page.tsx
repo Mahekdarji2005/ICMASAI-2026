@@ -1,4 +1,4 @@
-import Scope from "@/pages/Scope";
+import Scope from "@/views/Scope";
 
 export default function ScopePage() {
   return <Scope />;

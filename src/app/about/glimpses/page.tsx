@@ -1,4 +1,4 @@
-import Glimpses from "@/pages/Glimpses";
+import Glimpses from "@/views/Glimpses";
 
 export default function GlimpsesPage() {
   return <Glimpses />;

@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
-import Glimpses from "@/pages/Glimpses";
+import Glimpses from "@/views/Glimpses";
 
 export default function Home() {
   return (
