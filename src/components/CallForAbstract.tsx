@@ -41,113 +41,52 @@ const CallForAbstract = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold font-serif tracking-wide">
               <span className="text-white">SUBMISSION </span>
-              <span className="text-[#facc15]">GUIDLINES</span>
+              <span className="text-[#facc15]">GUIDELINES</span>
             </h2>
+            <p className="text-gray-300 text-base md:text-lg mt-4 max-w-2xl mx-auto">
+              Please ensure that your manuscript complies with the conference requirements before submission.
+            </p>
           </div>
 
-          <div className="space-y-6 mb-12">
-            {/* Item 01 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">01</div>
-              <div>
-                <h3 className="text-xl font-bold text-white mb-2">Registration</h3>
-                <p className="text-gray-400 text-sm md:text-base">Complete the registration process first to ensure your participation.</p>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Author Instructions */}
+            <div className="bg-[#151b2b] rounded-xl p-8 shadow-lg border border-gray-800 hover:border-gray-600 transition-colors">
+              <h3 className="text-2xl font-bold text-white mb-6 font-serif">Author Instructions</h3>
+              <ul className="space-y-4 text-gray-300 list-disc pl-5 marker:text-gray-500">
+                <li>Use the IEEE conference paper format.</li>
+                <li>Paper length: 6 pages in standard IEEE format.</li>
+                <li>
+                  Paper Format <a href="#" className="text-blue-400 font-semibold hover:underline">Word and LaTex Templates</a>
+                </li>
+                <li>
+                  <span className="font-bold text-white">LaTeX</span> is the preferred submission format due to its compatibility with the publication workflow and its ability to facilitate faster processing.
+                </li>
+                <li>Submit only original and unpublished work.</li>
+                <li>No simultaneous submissions elsewhere.</li>
+                <li>Double-blind peer review applies.</li>
+              </ul>
             </div>
 
-            {/* Item 02 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">02</div>
-              <div className="flex-1">
-                <h3 className="text-xl font-bold text-white mb-2">Prepare Abstract</h3>
-                <p className="text-gray-400 text-sm md:text-base mb-4">Submit abstract as per abstract submission guidlines.</p>
-                <Button variant="outline" className="border-[#facc15] text-[#facc15] bg-transparent hover:bg-[#facc15] hover:text-black transition-colors rounded-none">
-                  <Eye className="w-4 h-4 mr-2" />
-                  View Abstract Submission Guidlines
-                </Button>
-              </div>
-            </div>
-
-            {/* Item 03 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">03</div>
-              <div className="flex-1">
-                <h3 className="text-xl font-bold text-white mb-2">Submit for Review</h3>
-                <p className="text-gray-400 text-sm md:text-base mb-4">Send your abstract by clicking the below button. All submissions will undergo double-blind peer review.</p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-6">
-                    Template for Abstract Submission
-                  </Button>
-                  <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-6">
-                    Submit Abstract <Lock className="w-4 h-4 ml-2" />
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-            {/* Item 04 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">04</div>
-              <div>
-                <h3 className="text-xl font-bold text-white mb-2">Wait for Acceptance</h3>
-                <p className="text-gray-400 text-sm md:text-base">Notifications of acceptance will be sent via email by the specified date.</p>
-              </div>
-            </div>
-
-            {/* Item 05 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">05</div>
-              <div className="flex-1">
-                <h3 className="text-xl font-bold text-white mb-2">Full Paper Submission</h3>
-                <p className="text-gray-400 text-sm md:text-base mb-4">Upon acceptance, submit the full paper (min 7000 words) adhering to formatting guidelines.</p>
-                <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-6">
-                  Submit Full Paper <Lock className="w-4 h-4 ml-2" />
-                </Button>
-              </div>
+            {/* Submission Portal */}
+            <div className="bg-[#151b2b] rounded-xl p-8 shadow-lg border border-gray-800 hover:border-gray-600 transition-colors flex flex-col items-start">
+              <h3 className="text-2xl font-bold text-white mb-6 font-serif">Submission Portal</h3>
+              <p className="text-gray-300 text-lg mb-8">
+                The conference management system link is currently marked as <span className="font-bold text-white">CMT by Microsoft</span>.
+              </p>
+              <Button 
+                className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded px-8 py-6 text-base shadow-[0_0_15px_rgba(250,204,21,0.2)]"
+                onClick={() => window.open('https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027', '_blank')}
+              >
+                Submission Link
+              </Button>
             </div>
           </div>
+        </div>
 
-          {/* Presentation Types */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            <div className="bg-[#151b2b] border-t-4 border-[#facc15] p-8 rounded-b-lg flex flex-col items-center text-center shadow-lg">
-              <div className="w-16 h-16 rounded-full border border-gray-600 flex items-center justify-center mb-6">
-                <Mic className="w-8 h-8 text-[#facc15]" />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4 font-serif">Oral Presentation</h3>
-              <p className="text-gray-400 text-sm md:text-base mb-8 flex-1">Prepare your 10-12 slides using official conference PPT format (Times new roman). Ensure your presentation fits within the allocated time slot.</p>
-              <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
-                <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold rounded-none px-6" onClick={() => downloadFile('ppt-template.pptx')}>
-                  <Download className="w-4 h-4 mr-2" /> Download Template
-                </Button>
-                <Button variant="outline" className="border-[#facc15] text-[#facc15] bg-transparent hover:bg-[#facc15] hover:text-black transition-colors rounded-none px-6">
-                  <Eye className="w-4 h-4 mr-2" /> View Guidelines
-                </Button>
-              </div>
-            </div>
-            <div className="bg-[#151b2b] border-t-4 border-[#facc15] p-8 rounded-b-lg flex flex-col items-center text-center shadow-lg">
-              <div className="w-16 h-16 rounded-full border border-gray-600 flex items-center justify-center mb-6">
-                <Monitor className="w-8 h-8 text-[#facc15]" />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4 font-serif">Poster Presentation</h3>
-              <p className="text-gray-400 text-sm md:text-base mb-8 flex-1">Follow the guidelines to prepare your poster for an effective presentation. The size of poster is 3 × 4 feet.</p>
-              <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
-                <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold rounded-none px-6" onClick={() => downloadFile('poster-template.pptx')}>
-                  <Download className="w-4 h-4 mr-2" /> Download Template
-                </Button>
-                <Button variant="outline" className="border-[#facc15] text-[#facc15] bg-transparent hover:bg-[#facc15] hover:text-black transition-colors rounded-none px-6">
-                  <Eye className="w-4 h-4 mr-2" /> View Guidelines
-                </Button>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex justify-center mb-12">
-            <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-8 py-6 text-lg shadow-[0_0_15px_rgba(250,204,21,0.3)]" onClick={() => downloadFile('author-guidelines.pdf')}>
-              <Download className="w-5 h-5 mr-2" /> Download Author Guidelines
-            </Button>
-          </div>
-
-
+        <div className="flex justify-center mb-20 mt-[-2rem]">
+          <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-8 py-6 text-lg shadow-[0_0_15px_rgba(250,204,21,0.3)]" onClick={() => downloadFile('author-guidelines.pdf')}>
+            <Download className="w-5 h-5 mr-2" /> Download Author Guidelines
+          </Button>
         </div>
 
         {/* 2. DOWNLOAD ABSTRACT FORMAT */}
