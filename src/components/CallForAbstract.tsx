@@ -70,8 +70,11 @@ const CallForAbstract = () => {
             {/* Submission Portal */}
             <div className="bg-[#151b2b] rounded-xl p-8 shadow-lg border border-gray-800 hover:border-gray-600 transition-colors flex flex-col items-start">
               <h3 className="text-2xl font-bold text-white mb-6 font-serif">Submission Portal</h3>
-              <p className="text-gray-300 text-lg mb-8">
+              <p className="text-gray-300 text-lg mb-4">
                 The conference management system link is currently marked as <span className="font-bold text-white">CMT by Microsoft</span>.
+              </p>
+              <p className="text-gray-300 text-sm mb-8 leading-relaxed">
+                The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
               </p>
               <Button 
                 className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded px-8 py-6 text-base shadow-[0_0_15px_rgba(250,204,21,0.2)]"
